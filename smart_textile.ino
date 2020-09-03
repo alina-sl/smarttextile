@@ -4,20 +4,20 @@
 
 // pulse sensor constants
 const int OUTPUT_TYPE = SERIAL_PLOTTER;
-const int PULSE_INPUT = A8;
+const int PULSE_INPUT = A4;
 const int PULSE_BLINK = 13;    // Pin 13 is the on-board LED
 const int PULSE_FADE = 5;
 const int THRESHOLD = 550;   // Adjust this number to avoid noise when idle
 
 // pixel board constants
-const int PIXEL_BOARD_PIN = 7;  //Which pin the pixels are connected to
+const int PIXEL_BOARD_PIN = 10;  //Which pin the pixels are connected to
 const int LED_COUNT = 3;  //Number of pixels used
 
 const int VIBRATOR_PIN = 5;
 
 // heart rate constants
-const int HEART_RATE_NORMAL = 50;
-const int HEART_RATE_ELEVATED = 80;
+const int HEART_RATE_NORMAL = 80;
+const int HEART_RATE_ELEVATED = 100;
 
 // create a pulse sensor instance
 PulseSensorPlayground pulseSensor;
